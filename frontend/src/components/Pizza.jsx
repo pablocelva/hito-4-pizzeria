@@ -7,7 +7,8 @@ export const Pizza = () => {
     
     const getPizza = async () => {
         try {
-            const url = "http://localhost:5000/api/pizzas/p001"
+            //const url = "http://localhost:5000/api/pizzas/p001"
+            const url = "https://hito-4-pizzeria.vercel.app/"
             const response = await fetch(url)
 
             if (!response.ok) {
