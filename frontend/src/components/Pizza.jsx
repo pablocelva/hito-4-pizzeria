@@ -7,8 +7,8 @@ export const Pizza = () => {
     
     const getPizza = async () => {
         try {
-            //const url = "http://localhost:5000/api/pizzas/p001"
-            const url = process.env.REACT_APP_BACKEND_URL
+            const url = "http://localhost:5000/api/pizzas/p001"
+            //const url = `${process.env.REACT_APP_BACKEND_URL}/api/pizzas/p001`
             const response = await fetch(url)
 
             if (!response.ok) {

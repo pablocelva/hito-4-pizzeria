@@ -13,8 +13,7 @@ export default function Home() {
     
     const getPizzas = async () => {
         try {
-            //const url = "http://localhost:5000/api/pizzas"
-            const url = "https://hito-4-pizzeria.vercel.app/"
+            const url = "http://localhost:5000/api/pizzas"
             const response = await fetch(url)
 
             if (!response.ok) {
