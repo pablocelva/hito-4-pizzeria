@@ -24,7 +24,7 @@ export default function Home() {
             setPizzas(data)
 
         } catch (err) {
-            setError(err.meesage)
+            setError(err.message)
         }
     }
 
